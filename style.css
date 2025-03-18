@@ -1,0 +1,66 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color: #6bb0e6;
+ }
+ .container {
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffff;
+ }
+ .calcu{
+     box-shadow: 6px 6px 13px #fff, 
+     6px 6px 13px rgba(185, 233, 166, 0.16);
+     border-radius: 28px;
+     padding: 16px;
+     display: grid;
+     grid-template-columns: repeat(5,66px);
+ }
+ input{
+     grid-column: span 5;
+     height: 68px;
+     width: 328px;
+     box-shadow: inset  -6px -6px 13px #fff, 
+     inset 6px 6px 13px rgb(0,0,0,.16);;
+     background-color: #ecf0f3;
+     border: none;
+     border-radius: 32px;
+     color: rgb(26,25,26);
+     text-align: end;
+     margin: 40px 0px 30px 0px;
+     padding: 40px;
+     font-size: 40px;
+ }
+ button{
+     box-shadow: inset 6px 6px 13px #fff, 
+     6px 6px 13px rgb(0,0,0,.16);;
+     background-color: #ecf0f3;
+     border: none;
+     border-radius: 50%; 
+     height: 50px;
+     width: 50px;
+     margin: 10px;
+     font-weight: 20px;
+     font-size: 20px;
+     cursor: pointer;
+ }
+ .equal{
+     width: 60px;
+     border-radius: 32px;
+     box-shadow: inset 6px 6px 13px #fff, 
+     6px 6px 13px rgb(0,0,0,.16);;
+     background-color: #ecf0f3;
+ }
+ #clr {
+     background-color: #09ff00;
+     color: #140303;
+ }
+ #del {
+     background-color: #e91818;
+     color: #140303;
+ }
